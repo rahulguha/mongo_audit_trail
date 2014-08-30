@@ -1,0 +1,5 @@
+[2014-08-30 20:55:21.672] [INFO] api - query successful- [object Object]
+[2014-08-30 20:58:53.386] [INFO] api - query successful- {"app_id":"sf"}
+[2014-08-30 21:05:56.119] [INFO] api - query -get_audit_request_by_app_id successful - {"app_id":"sf"}
+[2014-08-30 21:11:25.445] [INFO] api - query - insert_audit_request successful - {"audit_id":"sf-ZkvWP1tFf","app_id":"sf","db_identifier":"annectos_prod","collection_identifier":"product","field_identifier":"price","old_data":{"value":{"mrp":999,"list":899.1,"discount":10,"min":999,"final_offer":899.1,"final_discount":10}},"new_data":{"value":{"mrp":999,"list":799.1,"discount":20,"min":999,"final_offer":799.1,"final_discount":20}},"ts":"2014-08-30T15:41:25.443Z","user":"rahul.guha@gmail.com","_id":"5401f0a5b3eeaac49f7b1d87"}
+[2014-08-30 21:12:21.258] [INFO] api - query - get_audit_request_by_app_id successful - {"app_id":"sf"}
