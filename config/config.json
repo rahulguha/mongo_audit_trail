@@ -10,5 +10,6 @@
     "mysql":
     {},
 
-    "logging_level" : "INFO"
+    "logging_level" : "INFO",
+    "port"  : 3001
 }

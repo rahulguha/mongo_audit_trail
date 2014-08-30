@@ -8,14 +8,15 @@ log4js = require('log4js');
 
 log4js.configure('./config/log4js.json', {});
 
-exports.new_uuid = function(){
-    return uuid.v1();
-}
 
 exports.get_logger = function(log){
     var logger = log4js.getLogger(log);
     logger.setLevel(config.logging_level);
     return logger;
+}
+
+exports.get_listening_port = function(){
+    return config.port;
 }
 
 exports.get_connection_string = function(){

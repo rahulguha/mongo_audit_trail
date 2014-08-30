@@ -34,3 +34,30 @@ URL:/audit/report/by/app_id/sf
 [2014-08-30 21:12:19.489] [INFO] server - Route Sub System: AUDIT/REPORT
 Method: GET
 URL:/audit/report/by/app_id/sf
+[2014-08-30 21:35:44.562] [INFO] server - express loaded
+[2014-08-30 21:35:44.564] [INFO] server - routes are loaded
+[2014-08-30 21:35:44.583] [INFO] server - http server started
+[2014-08-30 21:35:59.919] [INFO] server - Route Sub System: AUDIT
+Method: GET
+URL:/audit/report/by/app_id/sf
+[2014-08-30 21:35:59.919] [INFO] server - Route Sub System: AUDIT/REPORT
+Method: GET
+URL:/audit/report/by/app_id/sf
+[2014-08-30 21:37:35.660] [INFO] server - express loaded
+[2014-08-30 21:37:35.662] [INFO] server - routes are loaded
+[2014-08-30 21:37:35.680] [INFO] server - http server started
+[2014-08-30 21:37:35.680] [INFO] server - Listening on port 3001
+[2014-08-30 21:38:00.110] [INFO] server - express loaded
+[2014-08-30 21:38:00.112] [INFO] server - routes are loaded
+[2014-08-30 21:38:00.131] [INFO] server - http server started
+[2014-08-30 21:38:00.131] [INFO] server - Listening on port 3001
+[2014-08-30 21:44:15.835] [INFO] server - express loaded
+[2014-08-30 21:44:15.837] [INFO] server - routes are loaded
+[2014-08-30 21:44:15.854] [INFO] server - http server started
+[2014-08-30 21:44:15.854] [INFO] server - Listening on port 3001
+[2014-08-30 21:44:21.801] [INFO] server - Route Sub System: AUDIT
+Method: POST
+URL:/audit/insert/request
+[2014-08-30 21:49:44.747] [INFO] server - Route Sub System: AUDIT
+Method: POST
+URL:/audit/insert/request

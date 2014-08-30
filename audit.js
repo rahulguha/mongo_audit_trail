@@ -128,7 +128,6 @@ var get_routes = function(r, r_list, route_sub_system){
 }
 
 logger.info("routes are loaded");
-app.listen(3000);
+app.listen(util.get_listening_port());
 logger.info("http server started");
-console.log('Listening on port 3000...');
-// start mongo connection
+logger.info('Listening on port ' + util.get_listening_port());
