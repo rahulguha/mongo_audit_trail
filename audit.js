@@ -7,7 +7,8 @@ var express =       require('express'),
     config =        require('./config/config.json'),
     util =          require('./util.js'),
     _ =             require('lodash-node'),
-    cors            = require('cors')
+    cors =          require('cors'),
+    exphbs  =          require('express-handlebars');
     ;
 
 // api documentation lib
@@ -33,6 +34,10 @@ app.use(cors());        // for x-browser
 
 
 logger.info("express loaded");
+
+// define view engine for help
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
 
 
 // implement ping_route actions
@@ -102,8 +107,17 @@ help_route.get('/', function(req, res){
     get_routes(audit_route.stack,r_list, "audit");
     get_routes(audit_report_route.stack,r_list, "audit/report");
     get_routes(help_route.stack,r_list, "help");
-
     res.send(r_list);
+});
+help_route.get('/show', function(req, res){
+    var r_list = [];
+    get_routes(ping_route.stack,r_list, "ping");
+    get_routes(audit_route.stack,r_list, "audit");
+    get_routes(audit_report_route.stack,r_list, "audit/report");
+    get_routes(help_route.stack,r_list, "help");
+    //res.send(r_list);
+    console.log(r_list);
+    res.render('show', {'routes': r_list});
 });
 app.use('/help', help_route);
 // end help route
