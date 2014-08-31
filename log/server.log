@@ -285,3 +285,16 @@ URL:/help/show
 [2014-08-31 10:25:19.783] [INFO] server - Route Sub System: HELP
 Method: GET
 URL:/help/show
+[2014-08-31 10:44:39.907] [INFO] server - express loaded
+[2014-08-31 10:44:39.910] [INFO] server - routes are loaded
+[2014-08-31 10:44:39.934] [INFO] server - http server started
+[2014-08-31 10:44:39.934] [INFO] server - Listening on port 3001
+[2014-08-31 10:44:43.982] [INFO] server - Route Sub System: HELP
+Method: GET
+URL:/help/show
+[2014-08-31 10:44:55.131] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/check/post
+[2014-08-31 10:44:58.155] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/check/mongo
