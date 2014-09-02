@@ -298,3 +298,7 @@ URL:/ping/check/post
 [2014-08-31 10:44:58.155] [INFO] server - Route Sub System: PING
 Method: GET
 URL:/ping/check/mongo
+[2014-09-02 07:49:42.503] [INFO] server - express loaded
+[2014-09-02 07:49:42.505] [INFO] server - routes are loaded
+[2014-09-02 07:49:42.529] [INFO] server - http server started
+[2014-09-02 07:49:42.529] [INFO] server - Listening on port 3001
