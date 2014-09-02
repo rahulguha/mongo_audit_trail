@@ -139,7 +139,7 @@ var get_routes = function(r, r_list, route_sub_system){
     return r_list;
 }
 
-logger.info("all routes are loaded");
+logger.info("routes are loaded");
 app.listen(util.get_listening_port());
 logger.info("http server started");
-logger.info('Listening on port ' + util.get_listening_port());
+logger.info('Listening to port ' + util.get_listening_port());
