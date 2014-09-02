@@ -11,10 +11,9 @@ var express =       require('express'),
     exphbs  =          require('express-handlebars');
     ;
 
-// api documentation lib
-//var docs = require("express-mongoose-docs");
+
 // start logger
-var logge =        util.get_logger("server");
+var logger =        util.get_logger("server");
 
 
 // define routers (new in Express 4.0)
@@ -140,7 +139,7 @@ var get_routes = function(r, r_list, route_sub_system){
     return r_list;
 }
 
-logger.info("routes are loaded");
+logger.info("all routes are loaded");
 app.listen(util.get_listening_port());
 logger.info("http server started");
 logger.info('Listening on port ' + util.get_listening_port());
