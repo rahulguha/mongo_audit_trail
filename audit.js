@@ -14,7 +14,7 @@ var express =       require('express'),
 // api documentation lib
 //var docs = require("express-mongoose-docs");
 // start logger
-var logger =        util.get_logger("server");
+var logge =        util.get_logger("server");
 
 
 // define routers (new in Express 4.0)
