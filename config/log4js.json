@@ -1,0 +1,23 @@
+
+{
+"appenders": [
+{
+"type": "file",
+"filename": "./log/server.log",
+"maxLogSize": 20480,
+"backups": 3,
+"category": "server"
+},
+    {
+        "type": "file",
+        "filename": "./log/api.log",
+        "maxLogSize": 20480,
+        "backups": 3,
+        "category": "api"
+    },
+    {
+        "type": "console"
+    }
+
+]
+}

@@ -1,0 +1,15 @@
+<h1>Route List</h1>
+<h2>Routes found - {{routes.length}} </h2>
+<ul >
+    {{#each routes}}
+        <li>
+            Route: <a href='{{path}}'>{{path}}</a><br/>
+            Method:
+            {{#if method.get}}
+                GET
+            {{else}}
+                POST
+            {{/if}}
+        </li>
+    {{/each}}
+</ul>

@@ -1,0 +1,15 @@
+{
+    "env": "prod",
+    "mongo_address":
+        [
+            {"env":"dev", "ip": "xx.xx.xx.xxx","db": "audit_db", "collection": "audit"},
+            {"env":"prod", "ip": "54.208.211.161","db": "audit_db", "collection": "audit"}
+        ],
+
+    "mongo_poolsize" : 4,
+    "mysql":
+    {},
+
+    "logging_level" : "INFO",
+    "port"  : 3001
+}
