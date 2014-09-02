@@ -14,7 +14,7 @@ var express =       require('express'),
 // api documentation lib
 //var docs = require("express-mongoose-docs");
 // start logger
-var logger =        util.get_logger("server");
+var logge =        util.get_logger("server");
 
 
 // define routers (new in Express 4.0)
@@ -95,7 +95,6 @@ app.use('/audit/report', audit_report_route);
 
 
 // implement help_route actions
-
 help_route.use (function(req,res,next){
     logger.info(util.create_routing_log(req.method, req.url, "help", "HELP"));
     // continue doing what we were doing and go to the route
