@@ -39,6 +39,63 @@ var audit = function(){
 
 //******************** end  audit object *************************************
 
+// ******************* authentication *************************************
+// This looks into persistent registry of apps that participates
+// into the audit trail
+exports.autheticate = function (req, res, callback) {
+    try{
+        mongo.init( function (error, mongo_client) {
+            if (error)
+                throw error;
+            else {
+                var r={};
+                var c = mongo_client.collection(util.get_mongo_host_auth_collection());
+                if (    req.body.hasOwnProperty("app_id") &&
+                        req.body.hasOwnProperty("secret") &&
+                        req.body.app_id != '' &&
+                        req.body.secret != ''
+                    ){
+                    var q = {'app_id': req.body.app_id, 'secret' : req.body.secret};
+                    c.find(q).toArray( function(err, docs){
+                        if (err){
+                            log_info ('autheticate error', err, true);
+                            r.error  = 1;
+                            r.result = err;
+                        }
+                        else{
+                            log_info ('autheticate', q, false);
+                            if (docs.length > 0 ){
+                                r.error = 0;
+                                r.result = docs;
+                                //return ({'error': 0, 'result' : docs}, res);
+                            }else{
+                                r.error  = 1;
+                                r.result = "app/secret combination not correct";
+                            }
+                        }
+                        callback( r);
+                    })
+
+                }
+                else {
+                    log_info ('autheticate error', {'error': 1, 'err_obj' : "app_id / secret not present in request"}, true);
+                    r.error  = 1;
+                    r.result = "app_id / secret not present in request";
+                    callback(r);
+                }
+
+
+            }
+
+        });
+    }
+    catch (exception){
+        logger.info(exception);
+    }
+
+};
+// ******************* end authentication *********************************
+
 //********************  get  methods   *************************************
 exports.get_audit_request_by_app_id = function (req, res) {
     try{
@@ -68,6 +125,8 @@ exports.get_audit_request_by_app_id = function (req, res) {
     }
 
 };
+
+
 //******************** end  get *************************************
 
 //********************  post methods   *************************************

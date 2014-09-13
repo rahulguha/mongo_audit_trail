@@ -1,304 +1,70 @@
-[2014-08-30 20:56:36.727] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 20:56:36.728] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 20:58:46.570] [INFO] server - express loaded
-[2014-08-30 20:58:46.572] [INFO] server - routes are loaded
-[2014-08-30 20:58:46.592] [INFO] server - http server started
-[2014-08-30 20:58:51.690] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 20:58:51.691] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 21:05:50.442] [INFO] server - express loaded
-[2014-08-30 21:05:50.444] [INFO] server - routes are loaded
-[2014-08-30 21:05:50.462] [INFO] server - http server started
-[2014-08-30 21:05:54.375] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 21:05:54.375] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 21:11:15.903] [INFO] server - express loaded
-[2014-08-30 21:11:15.904] [INFO] server - routes are loaded
-[2014-08-30 21:11:15.928] [INFO] server - http server started
-[2014-08-30 21:11:23.964] [INFO] server - Route Sub System: AUDIT
+[2014-09-13 14:45:18.473] [INFO] server - http server started
+[2014-09-13 14:45:18.474] [INFO] server - Listening to port 3001
+[2014-09-13 15:02:55.162] [INFO] server - express loaded
+[2014-09-13 15:02:55.164] [INFO] server - all routes are loaded
+[2014-09-13 15:02:55.184] [INFO] server - http server started
+[2014-09-13 15:02:55.184] [INFO] server - Listening to port 3001
+[2014-09-13 15:04:29.130] [INFO] server - express loaded
+[2014-09-13 15:04:29.133] [INFO] server - all routes are loaded
+[2014-09-13 15:04:29.155] [INFO] server - http server started
+[2014-09-13 15:04:29.155] [INFO] server - Listening to port 3001
+[2014-09-13 15:05:27.909] [INFO] server - express loaded
+[2014-09-13 15:05:27.911] [INFO] server - all routes are loaded
+[2014-09-13 15:05:27.932] [INFO] server - http server started
+[2014-09-13 15:05:27.932] [INFO] server - Listening to port 3001
+[2014-09-13 15:07:48.579] [INFO] server - express loaded
+[2014-09-13 15:07:48.581] [INFO] server - all routes are loaded
+[2014-09-13 15:07:48.604] [INFO] server - http server started
+[2014-09-13 15:07:48.604] [INFO] server - Listening to port 3001
+[2014-09-13 15:07:58.506] [INFO] server - express loaded
+[2014-09-13 15:07:58.509] [INFO] server - all routes are loaded
+[2014-09-13 15:07:58.533] [INFO] server - http server started
+[2014-09-13 15:07:58.533] [INFO] server - Listening to port 3001
+[2014-09-13 15:09:00.695] [INFO] server - express loaded
+[2014-09-13 15:09:00.697] [INFO] server - all routes are loaded
+[2014-09-13 15:09:00.718] [INFO] server - http server started
+[2014-09-13 15:09:00.718] [INFO] server - Listening to port 3001
+[2014-09-13 15:10:21.080] [INFO] server - express loaded
+[2014-09-13 15:10:21.082] [INFO] server - all routes are loaded
+[2014-09-13 15:10:21.100] [INFO] server - http server started
+[2014-09-13 15:10:21.100] [INFO] server - Listening to port 3001
+[2014-09-13 15:11:56.220] [INFO] server - express loaded
+[2014-09-13 15:11:56.222] [INFO] server - all routes are loaded
+[2014-09-13 15:11:56.241] [INFO] server - http server started
+[2014-09-13 15:11:56.241] [INFO] server - Listening to port 3001
+[2014-09-13 15:13:03.194] [INFO] server - express loaded
+[2014-09-13 15:13:03.196] [INFO] server - all routes are loaded
+[2014-09-13 15:13:03.215] [INFO] server - http server started
+[2014-09-13 15:13:03.215] [INFO] server - Listening to port 3001
+[2014-09-13 15:13:35.768] [INFO] server - Route Sub System: AUDIT
 Method: POST
 URL:/audit/insert/request
-[2014-08-30 21:12:19.489] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 21:12:19.489] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 21:35:44.562] [INFO] server - express loaded
-[2014-08-30 21:35:44.564] [INFO] server - routes are loaded
-[2014-08-30 21:35:44.583] [INFO] server - http server started
-[2014-08-30 21:35:59.919] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 21:35:59.919] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-30 21:37:35.660] [INFO] server - express loaded
-[2014-08-30 21:37:35.662] [INFO] server - routes are loaded
-[2014-08-30 21:37:35.680] [INFO] server - http server started
-[2014-08-30 21:37:35.680] [INFO] server - Listening on port 3001
-[2014-08-30 21:38:00.110] [INFO] server - express loaded
-[2014-08-30 21:38:00.112] [INFO] server - routes are loaded
-[2014-08-30 21:38:00.131] [INFO] server - http server started
-[2014-08-30 21:38:00.131] [INFO] server - Listening on port 3001
-[2014-08-30 21:44:15.835] [INFO] server - express loaded
-[2014-08-30 21:44:15.837] [INFO] server - routes are loaded
-[2014-08-30 21:44:15.854] [INFO] server - http server started
-[2014-08-30 21:44:15.854] [INFO] server - Listening on port 3001
-[2014-08-30 21:44:21.801] [INFO] server - Route Sub System: AUDIT
+[2014-09-13 15:16:24.003] [INFO] server - express loaded
+[2014-09-13 15:16:24.005] [INFO] server - all routes are loaded
+[2014-09-13 15:16:24.025] [INFO] server - http server started
+[2014-09-13 15:16:24.025] [INFO] server - Listening to port 3001
+[2014-09-13 15:16:45.933] [INFO] server - Route Sub System: AUDIT
 Method: POST
 URL:/audit/insert/request
-[2014-08-30 21:49:44.747] [INFO] server - Route Sub System: AUDIT
+[2014-09-13 15:17:32.129] [INFO] server - Route Sub System: AUDIT
 Method: POST
 URL:/audit/insert/request
-[2014-08-31 06:00:26.240] [INFO] server - express loaded
-[2014-08-31 06:00:26.242] [INFO] server - routes are loaded
-[2014-08-31 06:00:26.261] [INFO] server - http server started
-[2014-08-31 06:00:26.261] [INFO] server - Listening on port 3001
-[2014-08-31 06:01:03.194] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/
-[2014-08-31 08:29:51.387] [INFO] server - express loaded
-[2014-08-31 08:29:51.389] [INFO] server - routes are loaded
-[2014-08-31 08:29:51.410] [INFO] server - http server started
-[2014-08-31 08:29:51.410] [INFO] server - Listening on port 3001
-[2014-08-31 08:30:07.157] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/
-[2014-08-31 08:30:11.258] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 08:31:56.398] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 08:33:14.420] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 08:33:29.960] [INFO] server - express loaded
-[2014-08-31 08:33:29.962] [INFO] server - routes are loaded
-[2014-08-31 08:33:29.980] [INFO] server - http server started
-[2014-08-31 08:33:29.980] [INFO] server - Listening on port 3001
-[2014-08-31 08:33:33.220] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 08:34:09.813] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 08:35:35.458] [INFO] server - express loaded
-[2014-08-31 08:35:35.460] [INFO] server - routes are loaded
-[2014-08-31 08:35:35.483] [INFO] server - http server started
-[2014-08-31 08:35:35.483] [INFO] server - Listening on port 3001
-[2014-08-31 08:35:38.625] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:00:55.447] [INFO] server - express loaded
-[2014-08-31 09:00:55.450] [INFO] server - routes are loaded
-[2014-08-31 09:00:55.468] [INFO] server - http server started
-[2014-08-31 09:00:55.468] [INFO] server - Listening on port 3001
-[2014-08-31 09:00:59.228] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:01:02.379] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:01:52.042] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:02:02.747] [INFO] server - express loaded
-[2014-08-31 09:02:02.749] [INFO] server - routes are loaded
-[2014-08-31 09:02:02.768] [INFO] server - http server started
-[2014-08-31 09:02:02.768] [INFO] server - Listening on port 3001
-[2014-08-31 09:02:05.827] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:06:20.497] [INFO] server - express loaded
-[2014-08-31 09:06:20.500] [INFO] server - routes are loaded
-[2014-08-31 09:06:20.527] [INFO] server - http server started
-[2014-08-31 09:06:20.528] [INFO] server - Listening on port 3001
-[2014-08-31 09:06:24.613] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:23:45.600] [INFO] server - express loaded
-[2014-08-31 09:23:45.602] [INFO] server - routes are loaded
-[2014-08-31 09:23:45.624] [INFO] server - http server started
-[2014-08-31 09:23:45.624] [INFO] server - Listening on port 3001
-[2014-08-31 09:23:48.854] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:24:20.386] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:25:24.058] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:25:44.304] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:26:01.888] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:26:36.670] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:30:15.902] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:30:59.685] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/
-[2014-08-31 09:31:55.124] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:32:12.386] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:32:24.170] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 09:34:04.455] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:05:42.745] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:05:44.500] [INFO] server - Route Sub System: PING
-Method: GET
-URL:/ping/check/mongo
-[2014-08-31 10:05:48.163] [INFO] server - Route Sub System: PING
+[2014-09-13 15:29:02.408] [INFO] server - express loaded
+[2014-09-13 15:29:02.411] [INFO] server - all routes are loaded
+[2014-09-13 15:29:02.434] [INFO] server - http server started
+[2014-09-13 15:29:02.434] [INFO] server - Listening to port 3001
+[2014-09-13 15:29:34.253] [INFO] server - Route Sub System: PING
 Method: GET
 URL:/ping/
-[2014-08-31 10:05:55.643] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/:app_id
-[2014-08-31 10:05:55.643] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/:app_id
-[2014-08-31 10:06:24.742] [INFO] server - express loaded
-[2014-08-31 10:06:24.745] [INFO] server - routes are loaded
-[2014-08-31 10:06:24.766] [INFO] server - http server started
-[2014-08-31 10:06:24.766] [INFO] server - Listening on port 3001
-[2014-08-31 10:06:34.136] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:06:42.099] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/insert/request
-[2014-08-31 10:06:45.833] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/:app_id
-[2014-08-31 10:06:45.834] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/:app_id
-[2014-08-31 10:07:14.197] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-31 10:07:14.198] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-31 10:08:13.677] [INFO] server - express loaded
-[2014-08-31 10:08:13.679] [INFO] server - routes are loaded
-[2014-08-31 10:08:13.707] [INFO] server - http server started
-[2014-08-31 10:08:13.708] [INFO] server - Listening on port 3001
-[2014-08-31 10:08:23.527] [INFO] server - Route Sub System: PING
+[2014-09-13 15:30:42.074] [INFO] server - Route Sub System: PING
 Method: GET
 URL:/ping/
-[2014-08-31 10:08:27.167] [INFO] server - Route Sub System: AUDIT
+[2014-09-13 15:31:31.631] [INFO] server - Route Sub System: PING
 Method: GET
-URL:/audit/report/by/app_id/:app_id
-[2014-08-31 10:08:27.168] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/:app_id
-[2014-08-31 10:08:33.912] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/seep
-[2014-08-31 10:08:33.912] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/seep
-[2014-08-31 10:08:45.608] [INFO] server - Route Sub System: AUDIT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-31 10:08:45.608] [INFO] server - Route Sub System: AUDIT/REPORT
-Method: GET
-URL:/audit/report/by/app_id/sf
-[2014-08-31 10:20:47.185] [INFO] server - express loaded
-[2014-08-31 10:20:47.187] [INFO] server - routes are loaded
-[2014-08-31 10:20:47.207] [INFO] server - http server started
-[2014-08-31 10:20:47.207] [INFO] server - Listening on port 3001
-[2014-08-31 10:21:21.074] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:21:24.219] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:22:06.966] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:22:07.035] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/views/css/main.css
-[2014-08-31 10:22:14.548] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/views/css/main.css
-[2014-08-31 10:22:36.232] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show./
-[2014-08-31 10:22:51.760] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show../
-[2014-08-31 10:22:59.122] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:22:59.196] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/views/css/main.css
-[2014-08-31 10:23:21.002] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:23:21.079] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/css/main.css
-[2014-08-31 10:23:28.675] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/css/main.css
-[2014-08-31 10:24:31.055] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:24:31.126] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/css/main.css
-[2014-08-31 10:24:35.527] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/css/main.css
-[2014-08-31 10:24:57.032] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:25:19.783] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:44:39.907] [INFO] server - express loaded
-[2014-08-31 10:44:39.910] [INFO] server - routes are loaded
-[2014-08-31 10:44:39.934] [INFO] server - http server started
-[2014-08-31 10:44:39.934] [INFO] server - Listening on port 3001
-[2014-08-31 10:44:43.982] [INFO] server - Route Sub System: HELP
-Method: GET
-URL:/help/show
-[2014-08-31 10:44:55.131] [INFO] server - Route Sub System: PING
-Method: GET
-URL:/ping/check/post
-[2014-08-31 10:44:58.155] [INFO] server - Route Sub System: PING
-Method: GET
-URL:/ping/check/mongo
-[2014-09-02 07:49:42.503] [INFO] server - express loaded
-[2014-09-02 07:49:42.505] [INFO] server - routes are loaded
-[2014-09-02 07:49:42.529] [INFO] server - http server started
-[2014-09-02 07:49:42.529] [INFO] server - Listening on port 3001
+URL:/ping/
+[2014-09-13 15:33:00.822] [INFO] server - Route Sub System: AUDIT
+Method: POST
+URL:/audit/report/by/app_id/xolo_program_management
+[2014-09-13 15:33:00.822] [INFO] server - Route Sub System: AUDIT/REPORT
+Method: POST
+URL:/audit/report/by/app_id/xolo_program_management

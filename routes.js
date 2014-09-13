@@ -14,3 +14,8 @@ exports.insert_audit_request = function (req, res) {
 exports.get_audit_request_by_app_id = function (req, res) {
     api.get_audit_request_by_app_id(req, res);
 };
+exports.auth = function (req, res,callback) {
+    api.autheticate(req,res,  function (r){
+        callback( r);
+    });
+};

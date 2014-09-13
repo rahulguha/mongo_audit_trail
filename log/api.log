@@ -9,3 +9,53 @@
 [2014-08-31 10:08:28.961] [INFO] api - query - get_audit_request_by_app_id successful - {"app_id":":app_id"}
 [2014-08-31 10:08:35.655] [INFO] api - query - get_audit_request_by_app_id successful - {"app_id":"seep"}
 [2014-08-31 10:08:47.357] [INFO] api - query - get_audit_request_by_app_id successful - {"app_id":"sf"}
+[2014-09-12 21:22:42.845] [INFO] api - query - insert_audit_request successful - {"audit_id":"xolo_program_management-ZJT_4PVEQ","app_id":"xolo_program_management","db_name":"chandler_xoloman","collection_name":"sales_registry","field_name":"claim_details","business_id":"xolo/lkJpR8M3A","old_data":{"value":{"claim_details":{"invoice_number":"","invoice_amount":"0","imei":"911329850123473","acq":"","sku":"Q1000s","sku_value":14545,"qty":1,"sale_date":"2014-05-24T03:08:26.805Z"}}},"new_data":{"value":{"claim_details":{"invoice_number":"","invoice_amount":"0","imei":"911329850123473","acq":"","sku":"Q2000s","sku_value":14745,"qty":1,"sale_date":"2014-05-24T03:08:26.805Z"}}},"ts":"2014-09-12T15:52:42.841Z","user":"9738641008","business_id_name":"claim_id","_id":"541316caa5d52cab019f5d46"}
+[2014-09-13 13:25:18.066] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"xolo_program_management"}
+[2014-09-13 13:34:42.165] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management"}
+[2014-09-13 13:36:24.921] [INFO] api - query - autheticate successful - undefined
+[2014-09-13 13:39:08.721] [INFO] api - query - autheticate successful - undefined
+[2014-09-13 13:44:09.128] [INFO] api - query - autheticate failed - {"error":1,"err_obj":"app_id / secret not present in request"}
+[2014-09-13 13:46:10.542] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 13:51:10.119] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 13:54:18.531] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 13:55:55.252] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 13:57:13.066] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 13:58:59.622] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:02:54.005] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:05:32.004] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:06:18.932] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:10:27.326] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:10:48.680] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:11:31.277] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:41:00.813] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:41:49.909] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:42:26.157] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:44:20.637] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 14:45:50.753] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:03:03.679] [INFO] api - [ReferenceError: callback is not defined]
+ReferenceError: callback is not defined
+    at Object.exports.autheticate (/Users/rahulguha/annectos/mongo_audit_trail/api.js:45:21)
+    at Object.exports.auth (/Users/rahulguha/annectos/mongo_audit_trail/routes.js:18:9)
+    at authenticate (/Users/rahulguha/annectos/mongo_audit_trail/audit.js:149:12)
+    at Layer.handle [as handle_request] (/Users/rahulguha/annectos/mongo_audit_trail/node_modules/express/lib/router/layer.js:76:5)
+    at next (/Users/rahulguha/annectos/mongo_audit_trail/node_modules/express/lib/router/route.js:100:13)
+    at next (/Users/rahulguha/annectos/mongo_audit_trail/node_modules/express/lib/router/route.js:94:14)
+    at next (/Users/rahulguha/annectos/mongo_audit_trail/node_modules/express/lib/router/route.js:94:14)
+    at Route.dispatch (/Users/rahulguha/annectos/mongo_audit_trail/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/Users/rahulguha/annectos/mongo_audit_trail/node_modules/express/lib/router/layer.js:76:5)
+    at proto.handle.c (/Users/rahulguha/annectos/mongo_audit_trail/node_modules/express/lib/router/index.js:227:24)
+[2014-09-13 15:05:07.561] [INFO] api - query - autheticate error failed - {"name":"MongoError"}
+[2014-09-13 15:05:48.355] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:08:27.499] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:09:45.754] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:10:44.055] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:13:09.257] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:13:37.829] [INFO] api - query - insert_audit_request successful - {"audit_id":"xolo_program_management-ZJmOzNCVX","app_id":"xolo_program_management","db_name":"chandler_xoloman","collection_name":"sales_registry","field_name":"claim_details","business_id":"xolo/lkJpR8M3A","old_data":{"value":{"claim_details":{"invoice_number":"","invoice_amount":"0","imei":"911329850123473","acq":"","sku":"Q1000s","sku_value":14545,"qty":1,"sale_date":"2014-05-24T03:08:26.805Z"}}},"new_data":{"value":{"claim_details":{"invoice_number":"","invoice_amount":"0","imei":"911329850123473","acq":"","sku":"Q2000s","sku_value":14745,"qty":1,"sale_date":"2014-05-24T03:08:26.805Z"}}},"ts":"2014-09-13T09:43:37.827Z","user":"9738641008","business_id_name":"claim_id","_id":"541411c946bad1013a7732bd"}
+[2014-09-13 15:16:31.641] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:16:47.874] [INFO] api - query - insert_audit_request successful - {"audit_id":"xolo_program_management-bkgJqEA47","app_id":"xolo_program_management","db_name":"chandler_xoloman","collection_name":"sales_registry","field_name":"claim_details","business_id":"xolo/lkJpR8M3A","old_data":{"value":{"claim_details":{"invoice_number":"","invoice_amount":"0","imei":"911329850123473","acq":"","sku":"Q1000s","sku_value":14545,"qty":1,"sale_date":"2014-05-24T03:08:26.805Z"}}},"new_data":{"value":{"claim_details":{"invoice_number":"","invoice_amount":"0","imei":"911329850123473","acq":"","sku":"Q2000s","sku_value":14745,"qty":1,"sale_date":"2014-05-24T03:08:26.805Z"}}},"ts":"2014-09-13T09:46:47.873Z","user":"9738641008","business_id_name":"claim_id","_id":"541412875a067a2b3a3a0efa"}
+[2014-09-13 15:16:59.951] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{2869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:17:32.129] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:17:34.051] [INFO] api - query - insert_audit_request successful - {"audit_id":"xolo_program_management-WJpooVAEm","app_id":"xolo_program_management","db_name":"chandler_xoloman","collection_name":"sales_registry","field_name":"claim_details","business_id":"xolo/lkJpR8M3A","old_data":{"value":{"claim_details":{"invoice_number":"","invoice_amount":"0","imei":"911329850123473","acq":"","sku":"Q1000s","sku_value":14545,"qty":1,"sale_date":"2014-05-24T03:08:26.805Z"}}},"new_data":{"value":{"claim_details":{"invoice_number":"","invoice_amount":"0","imei":"911329850123473","acq":"","sku":"Q2000s","sku_value":14745,"qty":1,"sale_date":"2014-05-24T03:08:26.805Z"}}},"ts":"2014-09-13T09:47:34.050Z","user":"9738641008","business_id_name":"claim_id","_id":"541412b65a067a2b3a3a0efb"}
+[2014-09-13 15:32:30.002] [INFO] api - query - autheticate error failed - {"error":1,"err_obj":"app_id / secret not present in request"}
+[2014-09-13 15:33:00.822] [INFO] api - query - autheticate successful - {"app_id":"xolo_program_management","secret":"{3869CA12-916B-4415-A110-25C2D6676ED1}"}
+[2014-09-13 15:33:02.985] [INFO] api - query - get_audit_request_by_app_id successful - {"app_id":"xolo_program_management"}

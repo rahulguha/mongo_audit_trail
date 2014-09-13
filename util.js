@@ -74,6 +74,13 @@ exports.get_mongo_host_collection = function (){
     });
     return address.collection;
 }
+exports.get_mongo_host_auth_collection = function (){
+    var e = config.env;
+    var address = _.find(config.mongo_address, function(env) {
+        return env.env == e;
+    });
+    return address.auth_collection;
+}
 exports.get_connection_string = function(product){
     var e = config.env;
     var connection_string ;

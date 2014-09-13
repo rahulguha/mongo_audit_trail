@@ -39,6 +39,11 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
+// protect any route starting with "audit" with validation
+app.all("/audit/*", authenticate, function(req, res, next) {
+    next(); // if the middleware allowed us to get here,
+    // just move on to the next route handler
+});
 // implement ping_route actions
 
 // This is specific way to inject code when this route is called
@@ -80,17 +85,14 @@ audit_report_route.use (function(req,res,next){
     // continue doing what we were doing and go to the route
     next();
 });
-
     audit_report_route.get('/all', function(req, res){
         res.send('get all audit data');
     });
-    audit_report_route.get('/by/app_id/:app_id', function(req, res){
+    audit_report_route.post('/by/app_id/:app_id', function(req, res){
         routes.get_audit_request_by_app_id(req,res);
     });
-
-
 app.use('/audit/report', audit_report_route);
-// end email route
+// end audit report route
 
 
 // implement help_route actions
@@ -138,6 +140,25 @@ var get_routes = function(r, r_list, route_sub_system){
     }
     return r_list;
 }
+
+
+// This middleware function is used to protect the urls
+// This will expect app id and secret key as body variable
+// and it will validate based on registered data
+function authenticate(req, res, next) {
+    routes.auth(req,res, function (r){
+        if (r.error == 0) {
+            next(); // allow the next route to run
+        } else {
+            // some error occured which can be db connection or app/secret combination is wrong
+            // but r will hold the err object which will have details
+            // that can be handled in UI/consumer
+            res.send(r); // or render a form, etc.
+        }
+    });
+
+}
+
 
 logger.info("all routes are loaded");
 app.listen(util.get_listening_port());
