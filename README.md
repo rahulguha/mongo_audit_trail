@@ -42,10 +42,10 @@ Purpose of this codebase is to create a seamless audit trail mechanism for mongo
 3. 
 ##### As a developer I want to make sure the transport of my data is secured so that I can use this technique for sensitive data
   - Given:
-    * TBD
-    * 
+    * Application is registered with system
   - When
     * TBD
   - Then
-    * TBD:
-      - TBD
+    * Audit data can be inserted or accessed only through secret key
+    * Secret key is NOT exposed in url
+    
