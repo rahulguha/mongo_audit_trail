@@ -11,5 +11,5 @@
     {},
 
     "logging_level" : "INFO",
-    "port"  : 3001
+    "port"  : 3000
 }

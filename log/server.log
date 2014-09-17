@@ -68,3 +68,109 @@ URL:/audit/report/by/app_id/xolo_program_management
 [2014-09-13 15:33:00.822] [INFO] server - Route Sub System: AUDIT/REPORT
 Method: POST
 URL:/audit/report/by/app_id/xolo_program_management
+[2014-09-17 13:53:03.416] [INFO] server - express loaded
+[2014-09-17 13:53:03.423] [INFO] server - all routes are loaded
+[2014-09-17 13:53:03.428] [INFO] server - http server started
+[2014-09-17 13:53:03.428] [INFO] server - Listening to port 3001
+[2014-09-17 13:53:43.741] [INFO] server - express loaded
+[2014-09-17 13:53:43.746] [INFO] server - all routes are loaded
+[2014-09-17 13:53:43.751] [INFO] server - http server started
+[2014-09-17 13:53:43.751] [INFO] server - Listening to port 3001
+[2014-09-17 13:54:31.135] [INFO] server - express loaded
+[2014-09-17 13:54:31.141] [INFO] server - all routes are loaded
+[2014-09-17 13:54:31.145] [INFO] server - http server started
+[2014-09-17 13:54:31.146] [INFO] server - Listening to port 3001
+[2014-09-17 13:54:37.475] [INFO] server - express loaded
+[2014-09-17 13:54:37.480] [INFO] server - all routes are loaded
+[2014-09-17 13:54:37.483] [INFO] server - http server started
+[2014-09-17 13:54:37.484] [INFO] server - Listening to port 3001
+[2014-09-17 13:56:01.128] [INFO] server - express loaded
+[2014-09-17 13:56:01.135] [INFO] server - all routes are loaded
+[2014-09-17 13:56:01.141] [INFO] server - http server started
+[2014-09-17 13:56:01.141] [INFO] server - Listening to port 3001
+[2014-09-17 13:56:07.784] [INFO] server - express loaded
+[2014-09-17 13:56:07.790] [INFO] server - all routes are loaded
+[2014-09-17 13:56:07.793] [INFO] server - http server started
+[2014-09-17 13:56:07.793] [INFO] server - Listening to port 3001
+[2014-09-17 13:56:07.915] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 14:05:16.542] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 14:33:52.093] [INFO] server - express loaded
+[2014-09-17 14:33:52.100] [INFO] server - all routes are loaded
+[2014-09-17 14:33:52.105] [INFO] server - http server started
+[2014-09-17 14:33:52.105] [INFO] server - Listening to port 3000
+[2014-09-17 14:34:02.566] [INFO] server - express loaded
+[2014-09-17 14:34:02.571] [INFO] server - all routes are loaded
+[2014-09-17 14:34:02.574] [INFO] server - http server started
+[2014-09-17 14:34:02.574] [INFO] server - Listening to port 3000
+[2014-09-17 14:34:02.712] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 14:40:33.375] [INFO] server - express loaded
+[2014-09-17 14:40:33.380] [INFO] server - all routes are loaded
+[2014-09-17 14:40:33.383] [INFO] server - http server started
+[2014-09-17 14:40:33.383] [INFO] server - Listening to port 3000
+[2014-09-17 14:40:33.512] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 14:42:16.661] [INFO] server - express loaded
+[2014-09-17 14:42:16.667] [INFO] server - all routes are loaded
+[2014-09-17 14:42:16.669] [INFO] server - http server started
+[2014-09-17 14:42:16.670] [INFO] server - Listening to port 3000
+[2014-09-17 14:42:56.952] [INFO] server - express loaded
+[2014-09-17 14:42:56.961] [INFO] server - all routes are loaded
+[2014-09-17 14:42:56.965] [INFO] server - http server started
+[2014-09-17 14:42:56.965] [INFO] server - Listening to port 3000
+[2014-09-17 14:43:48.450] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 14:45:18.902] [INFO] server - express loaded
+[2014-09-17 14:45:18.908] [INFO] server - all routes are loaded
+[2014-09-17 14:45:18.915] [INFO] server - http server started
+[2014-09-17 14:45:18.915] [INFO] server - Listening to port 3000
+[2014-09-17 14:45:26.679] [INFO] server - express loaded
+[2014-09-17 14:45:26.684] [INFO] server - all routes are loaded
+[2014-09-17 14:45:26.687] [INFO] server - http server started
+[2014-09-17 14:45:26.687] [INFO] server - Listening to port 3000
+[2014-09-17 14:45:51.950] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 15:21:40.073] [INFO] server - express loaded
+[2014-09-17 15:21:40.083] [INFO] server - all routes are loaded
+[2014-09-17 15:21:40.087] [INFO] server - http server started
+[2014-09-17 15:21:40.088] [INFO] server - Listening to port 3000
+[2014-09-17 15:22:15.779] [INFO] server - express loaded
+[2014-09-17 15:22:15.785] [INFO] server - all routes are loaded
+[2014-09-17 15:22:15.789] [INFO] server - http server started
+[2014-09-17 15:22:15.802] [INFO] server - Listening to port 3000
+[2014-09-17 15:23:27.942] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 15:24:53.541] [INFO] server - express loaded
+[2014-09-17 15:24:53.548] [INFO] server - all routes are loaded
+[2014-09-17 15:24:53.550] [INFO] server - http server started
+[2014-09-17 15:24:53.550] [INFO] server - Listening to port 3000
+[2014-09-17 15:26:35.073] [INFO] server - express loaded
+[2014-09-17 15:26:35.080] [INFO] server - all routes are loaded
+[2014-09-17 15:26:35.084] [INFO] server - http server started
+[2014-09-17 15:26:35.085] [INFO] server - Listening to port 3000
+[2014-09-17 15:27:31.471] [INFO] server - express loaded
+[2014-09-17 15:27:31.477] [INFO] server - all routes are loaded
+[2014-09-17 15:27:31.479] [INFO] server - http server started
+[2014-09-17 15:27:31.480] [INFO] server - Listening to port 3000
+[2014-09-17 15:27:31.589] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 15:28:45.656] [INFO] server - express loaded
+[2014-09-17 15:28:45.661] [INFO] server - all routes are loaded
+[2014-09-17 15:28:45.664] [INFO] server - http server started
+[2014-09-17 15:28:45.664] [INFO] server - Listening to port 3000
+[2014-09-17 15:28:45.773] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 15:28:45.786] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/check/mongo

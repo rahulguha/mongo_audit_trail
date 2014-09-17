@@ -55,10 +55,10 @@ ping_route.use (function(req,res,next){
     next();
 });
     ping_route.get('/', function(req, res){
-        res.send('audit endpoints ready for data capture');
+        res.send({'error' : 0, 'msg' : 'audit endpoints ready for data capture'});
     });
     ping_route.get('/check/mongo', function(req, res){
-        res.send('Code for checking Mongo connection will be implemented here');
+        res.send({'error' : 0, 'msg' : 'Code for checking Mongo connection will be implemented here'});
     });
     ping_route.post('/check/post', function(req, res){
         res.send('Checking Post Method' + req.body);
@@ -164,3 +164,4 @@ logger.info("all routes are loaded");
 app.listen(util.get_listening_port());
 logger.info("http server started");
 logger.info('Listening to port ' + util.get_listening_port());
+module.exports = app;
