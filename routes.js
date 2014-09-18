@@ -5,11 +5,11 @@
  * Time: 9:06 PM
  * To change this template use File | Settings | File Templates.
  */
-//var cat = require('../schema/category.js');
+ "use strict";
 var api = require('./api.js');
 
 function routes() {
-	
+
 	this.insert_audit_request = function (req, res) {
     	api.insert_audit_request(req, res);
 	};
