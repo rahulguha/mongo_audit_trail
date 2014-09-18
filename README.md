@@ -9,7 +9,7 @@ Purpose of this codebase is to create a seamless audit trail mechanism for mongo
 ##### As a developer I should be able to call an end point to store my audit information in an unblocking manner so that those audit information can be reported in future.
   - Given:
     * The application is registered with the system for identification
-    * 
+
   - When
     * Following fields are posted to the api
       - app_id --> text code used by the app
@@ -27,7 +27,7 @@ Purpose of this codebase is to create a seamless audit trail mechanism for mongo
 ##### As a developer I should be able to query the audit database through an end point for my audit information so that those audit can be used with visualization engines
   - Given:
     * The application is registered with the system for identification
-    * 
+ 
   - When
     * The call is authenticated
   - Then
