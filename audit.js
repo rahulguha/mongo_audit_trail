@@ -159,6 +159,13 @@ function authenticate(req, res, next) {
 
 }
 
+process.on('uncaughtException', function(err) {
+    setTimeout(function() {
+        console.log("Uncaught error happened");
+        logger.info(util.create_routing_log("uncaught error", "uncaught error",  JSON.stringify(err) , "uncaught error- exitting"));
+    }, 2000);
+    console.log("Uncaught exception!", err);
+});
 
 logger.info("all routes are loaded");
 app.listen(util.get_listening_port());

@@ -174,3 +174,37 @@ URL:/ping/
 [2014-09-17 15:28:45.786] [INFO] server - Route Sub System: PING
 Method: GET
 URL:/ping/check/mongo
+[2014-09-17 15:44:04.011] [INFO] server - express loaded
+[2014-09-17 15:44:04.023] [INFO] server - all routes are loaded
+[2014-09-17 15:44:04.028] [INFO] server - http server started
+[2014-09-17 15:44:04.028] [INFO] server - Listening to port 3000
+[2014-09-17 15:45:05.963] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 15:45:21.574] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-17 15:45:31.893] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/check/mongo
+[2014-09-18 14:02:51.976] [INFO] server - express loaded
+[2014-09-18 14:02:51.983] [INFO] server - all routes are loaded
+[2014-09-18 14:02:51.987] [INFO] server - http server started
+[2014-09-18 14:02:51.988] [INFO] server - Listening to port 3000
+[2014-09-18 14:02:53.994] [INFO] server - Route Sub System: uncaught error- exitting
+Method: uncaught error
+URL:/{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen"}uncaught error
+[2014-09-18 14:03:53.696] [INFO] server - express loaded
+[2014-09-18 14:03:53.701] [INFO] server - all routes are loaded
+[2014-09-18 14:03:53.706] [INFO] server - http server started
+[2014-09-18 14:03:53.707] [INFO] server - Listening to port 3001
+[2014-09-18 14:04:28.512] [INFO] server - express loaded
+[2014-09-18 14:04:28.519] [INFO] server - all routes are loaded
+[2014-09-18 14:04:28.522] [INFO] server - http server started
+[2014-09-18 14:04:28.522] [INFO] server - Listening to port 3001
+[2014-09-18 14:04:28.673] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/
+[2014-09-18 14:04:28.695] [INFO] server - Route Sub System: PING
+Method: GET
+URL:/ping/check/mongo
