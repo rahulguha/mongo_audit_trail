@@ -5,17 +5,26 @@
  * Time: 9:06 PM
  * To change this template use File | Settings | File Templates.
  */
-//var cat = require('../schema/category.js');
+ "use strict";
 var api = require('./api.js');
 
-exports.insert_audit_request = function (req, res) {
-    api.insert_audit_request(req, res);
-};
-exports.get_audit_request_by_app_id = function (req, res) {
-    api.get_audit_request_by_app_id(req, res);
-};
-exports.auth = function (req, res,callback) {
-    api.autheticate(req,res,  function (r){
-        callback( r);
-    });
-};
+function routes() {
+
+	this.insert_audit_request = function (req, res) {
+    	api.insert_audit_request(req, res);
+	};
+
+	this.get_audit_request_by_app_id = function (req, res) {
+    	api.get_audit_request_by_app_id(req, res);
+	};
+
+	this.auth = function (req, res,callback) {
+    	api.autheticate(req,res,  function (r){
+        	callback( r);
+    	});
+	};
+}
+
+module.exports = new routes();
+
+
