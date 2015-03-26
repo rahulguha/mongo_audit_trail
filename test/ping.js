@@ -4,18 +4,25 @@
 var app = require('../audit')
     , request = require('supertest');
 describe('ping api', function(){
-    describe('when requesting resource /ping', function(){
+    describe('requesting  /ping using GET method', function(){
         it('should respond with 200', function(done){
             request(app)
                 .get('/ping')
                 .expect('Content-Type', /json/)
                 .expect(200, done);
         }); });
-    describe('when requesting resource /ping/check/mongo', function(){
+    describe('requesting /ping/check/mongo using GET method', function(){
         it('should respond with 200', function(done){
             request(app)
                 .get('/ping/check/mongo')
                 .expect('Content-Type', /json/)
+                .expect(200, done);
+        }); });
+    describe('requesting resource /ping/check/post using POST method', function(){
+        it('should respond with 200', function(done){
+            request(app)
+                .post('/ping/check/post')
+                //.expect('Content-Type', /text/html/)
                 .expect(200, done);
         }); });
 });
