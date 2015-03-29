@@ -1,0 +1,15 @@
+Connecting to 54.208.211.161:27017
+[32m[2015-03-26 06:08:52.405] [INFO] server - [39mexpress loaded
+[32m[2015-03-26 06:08:52.413] [INFO] server - [39mall routes are loaded 
+[32m[2015-03-26 06:08:52.415] [INFO] server - [39mhttp server started
+[32m[2015-03-26 06:08:52.416] [INFO] server - [39mListening to port 7000
+[32m[2015-03-26 06:08:52.509] [INFO] server - [39mRoute Sub System: PING
+Method: GET
+URL:/ping/
+[32m[2015-03-26 06:08:52.526] [INFO] server - [39mRoute Sub System: PING
+Method: GET
+URL:/ping/check/mongo
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Thu, 26 Mar 2015 00:38:52 GMT" time="0.043">
+<testcase classname="ping api when requesting resource /ping" name="should respond with 200" time="0.028"/>
+<testcase classname="ping api when requesting resource /ping/check/mongo" name="should respond with 200" time="0.009"/>
+</testsuite>

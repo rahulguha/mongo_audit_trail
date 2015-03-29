@@ -2,8 +2,8 @@
     "env": "prod",
     "mongo_address":
         [
-            {"env":"dev", "ip": "xx.xx.xx.xxx","db": "audit_db", "collection": "audit", "auth_collection": "audit_apps"},
-            {"env":"prod", "ip": "","db": "audit_db", "collection": "audit", "auth_collection": "audit_apps"}
+            {"env":"dev", "ip": "","db": "audit_db", "collection": "audit", "auth_collection": "audit_apps"},
+            {"env":"prod", "ip": "54.208.211.161","db": "audit_db", "collection": "audit", "auth_collection": "audit_apps"}
         ],
 
     "mongo_poolsize" : 4,
@@ -11,5 +11,5 @@
     {},
 
     "logging_level" : "INFO",
-    "port"  : 3001
+    "port"  : 7000
 }

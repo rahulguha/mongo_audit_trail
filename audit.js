@@ -156,7 +156,6 @@ function authenticate(req, res, next) {
             res.send(r); // or render a form, etc.
         }
     });
-
 }
 
 process.on('uncaughtException', function(err) {
@@ -167,7 +166,7 @@ process.on('uncaughtException', function(err) {
     console.log("Uncaught exception!", err);
 });
 
-logger.info("all routes are loaded");
+logger.info("all routes are loaded ");
 app.listen(util.get_listening_port());
 logger.info("http server started");
 logger.info('Listening to port ' + util.get_listening_port());
